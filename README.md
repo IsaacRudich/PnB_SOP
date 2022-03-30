@@ -30,7 +30,7 @@ The first two optional parameters select the problems to run. Each benchmark pro
 For example, running `benchmarkSOPs(64,"outputFiles/peel_64.txt", 60, numStart=8,numEnd=9)` will limit the solver so it only runs problems br17.10 and br17.12.
 
 * `usePeel` must be either `true` or `false`. If true, the solver will use peel-and-bound. If false, the solver will use branch-and-bound. The default value is `true`.
-* `peelSetting` must be either `peellen` or `peelf`. The default is `peellen `, changing it to `peelf` will change the way nodes are selected during peel-and-bound to the *frontier method* from the *last exact node* method. The difference is discussed in the paper, and will not be repreated here. 
+* `peelSetting` must be either `peellen` or `peelf`. The default is `peellen`, changing it to `peelf` will change the way nodes are selected during peel-and-bound to the *frontier method* from the *last exact node* method. The difference is discussed in the paper, and will not be repreated here. 
 
 A command using all of the optional parameters may look like this:
 
