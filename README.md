@@ -1,5 +1,5 @@
 # Peel-and-Bound
-This repository contains the code used to perform comparisons of the peel-and-bound method and the branch-and-bound method. Details about both algorithms and their implementations can be found in the paper: *[Peel-and-Bound: Generating Stronger Relaxed Bounds with Multivalued Decision Diagrams](https://arxiv.org/abs/2205.05216v1)*
+This repository contains the code used to perform comparisons of the peel-and-bound method and the branch-and-bound method. Details about both algorithms and their implementations can be found in the paper: *[Peel-and-Bound: Generating Stronger Relaxed Bounds with Multivalued Decision Diagrams](https://arxiv.org/abs/2205.05216v1)* There is significantly improved version available [here](https://github.com/IsaacRudich/ImprovedPnB)
 
 ## Getting ready to use this repository
 1. Install Julia by following the instructions [here](https://julialang.org/downloads/). In theory any up-to-date version of Julia should work, but if not, reverting to v1.6.1 will fix any deprecation issues.
